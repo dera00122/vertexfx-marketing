@@ -49,10 +49,10 @@ export default function NavBar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <a href={`${DASHBOARD_URL}/login`} className="rounded-lg border border-white/15 px-5 py-2 text-sm font-medium text-white">
+          <a href={DASHBOARD_URL}className="rounded-lg border border-white/15 px-5 py-2 text-sm font-medium text-white">
             Login
           </a>
-          <a href={`${DASHBOARD_URL}/signup`} style={{ backgroundColor: GREEN }} className="rounded-lg px-5 py-2 text-sm font-semibold text-black">
+          <a href={DASHBOARD_URL}style={{ backgroundColor: GREEN }} className="rounded-lg px-5 py-2 text-sm font-semibold text-black">
             Sign Up
           </a>
         </div>
@@ -100,10 +100,10 @@ export default function NavBar() {
           </nav>
 
           <div className="flex gap-2 p-4" style={{ borderTop: `1px solid ${BORDER}` }}>
-            <a href={`${DASHBOARD_URL}/login`} className="flex-1 rounded-lg border border-white/15 py-2.5 text-center text-sm font-medium text-white">
+            <a href={DASHBOARD_URL}className="flex-1 rounded-lg border border-white/15 py-2.5 text-center text-sm font-medium text-white">
               Login
             </a>
-            <a href={`${DASHBOARD_URL}/signup`} style={{ backgroundColor: GREEN }} className="flex-1 rounded-lg py-2.5 text-center text-sm font-semibold text-black">
+            <a href={DASHBOARD_URL}style={{ backgroundColor: GREEN }} className="flex-1 rounded-lg py-2.5 text-center text-sm font-semibold text-black">
               Sign Up
             </a>
           </div>

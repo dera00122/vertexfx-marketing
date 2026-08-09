@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import { BG, CARD, CARD_SOFT, BORDER, GREEN, GREEN_DIM, GOLD, WHITE, RED } from "../theme";
+import { BG, CARD, CARD_SOFT, BORDER, GREEN, GREEN_DIM, GOLD, WHITE, RED, DASHBOARD_URL } from "../theme";
 
 const tickers = [
   { pair: "EUR/USD", value: "1.08937", change: "+0.35%", up: true },
@@ -156,7 +156,7 @@ export default function Home() {
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <button
                 type="button"
-                onClick={() => phoneRef.current?.scrollIntoView({ behavior: "smooth", block: "center" })}
+                onClick={() => window.location.href = DASHBOARD_URL}
                 style={{ backgroundColor: GREEN }}
                 className="group flex items-center gap-2 rounded-xl px-6 py-3.5 text-[15px] font-semibold text-black transition-transform active:scale-95"
               >
