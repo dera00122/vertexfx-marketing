@@ -37,7 +37,7 @@ export default function Footer() {
       >
         <div className="flex items-center gap-2">
           <ShieldCheck className="h-3.5 w-3.5 shrink-0" />
-          Investing involves risk. Returns are not guaranteed. Please invest responsibly.
+          Build your financial future with informed strategies and responsible investing. Manage risk wisely and invest with confidence
         </div>
         <div>© {new Date().getFullYear()} VertexFX. All rights reserved.</div>
       </div>
