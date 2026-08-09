@@ -9,7 +9,8 @@ export const GREEN_DIM = "#9be62e";
 export const GOLD = "#d4af37";
 export const WHITE = "#f5f5f5";
 export const RED = "#f87171";
-export const DASHBOARD_URL = "https://vertexfx-user-app.vercel.app";
+export const DASHBOARD_URL = "/app";
+export const ADMIN_URL = "/admin";
 
 export const NAV_ITEMS = [
   { label: "Home", to: "/" },
