@@ -21,6 +21,7 @@ import {
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { BG, CARD, CARD_SOFT, BORDER, GREEN, GREEN_DIM, GOLD, WHITE, RED, DASHBOARD_URL } from "../theme";
+import InvestorAlerts from "../components/InvestorAlerts";
 
 const tickers = [
   { pair: "EUR/USD", value: "1.08937", change: "+0.35%", up: true },
@@ -339,6 +340,7 @@ export default function Home() {
           </div>
         </div>
       )}
+       <InvestorAlerts />
     </div>
   );
 }
